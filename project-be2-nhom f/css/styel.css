@@ -38,6 +38,15 @@ nav{
     padding: 20px 15px;
     text-decoration: none;
 }
+.razzi-svg-icon {
+    color: white;
+}
+.btn-outline-success{
+    border: #494949 !important;
+}
+.btn-outline-success:hover{
+    background-color: #303030 !important;
+}
 .bottom-header{
     display: flex;
     background: #303030;
@@ -93,13 +102,7 @@ nav{
     right: 0;
     margin: 15px;
 }
-.razzi-banner-content__sub-title {
-    margin-bottom: 13px;
-    font-size: 14px;
-    font-weight: 500;
-    letter-spacing: .2px;
-}
-.razzi-banner-content__title {
+.col-left .item .post .post__wrapper .post__header .razzi-banner-content__title {
     margin-bottom: 0;
     font-size: 60px;
     font-weight: 500;
@@ -132,9 +135,20 @@ nav{
     display: inline-block;
 }
 .razzi-banner-content {
+    text-align: center;
     height: 230px;
     padding: 50px 50px 50px 50px;
+    color: white;
 }
-.col-right .item .post .post__wrapper .post__header.razzi-banner-content-inner {
-    text-align: center;
+.elementor-12479 .elementor-element.elementor-element-527a43a6 .razzi-banner-content__button {
+    font-size: 16px;
+    color: #FFF;
+}
+.razzi-button.button-normal {
+    padding: 0;
+    line-height: inherit;
+}
+.razzi-button.button-outline, .razzi-button.button-normal {
+    color: var(--rz-color-dark);
+    background-color: transparent;
 }

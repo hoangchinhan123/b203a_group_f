@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+.razzi-newsletter-2 {
+    text-align: center;
+}
+.newsletter-desc {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+}
+input[type=email] {
+    padding: 1px 20px 0 24px;
+    border: none; 
+}
+.razzi-newsletter-2 .mc4wp-form-fields input[type=email] {
+    font-size: 15px;
+    
+    width: 30%;
+    margin-top: 40px;
+    padding: 10px 30px;
+    outline: none;
+    border-style: solid;
+    border-color: #111;
+    border-width: 0 0 1px;
+}
+/* .razzi-newsletter-2 .mc4wp-form-fields {
+    display: flex;
+    border-style: solid;
+    border-color: #111;
+    border-width: 0 0 1px;
+} */
+input[type=submit] {
+    padding: 0 24px 9px 0;
+    background-color: transparent;
+    font-weight: 500;
+    border-style: solid;
+    border-color: #111;
+    border-width: 0 0 1px;
+    
+}
